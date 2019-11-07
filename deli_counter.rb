@@ -20,6 +20,7 @@ def line (currentQueue)
 end
 
 def take_a_number(katz_deli, name)
-  
-  
+  queueNumber = katz_deli.size + 1
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{queueNumber} in line."
 end
